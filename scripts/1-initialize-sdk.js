@@ -9,6 +9,7 @@ dotenv.config();
 // Some quick checks to make sure our .env is working.
 
 if (!process.env.PRIVATE_KEY || process.env.PRIVATE_KEY == "") {
+    
     console.log("🛑 Private key not found.");
 }
 
